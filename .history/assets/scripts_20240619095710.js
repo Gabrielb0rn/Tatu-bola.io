@@ -45,16 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // const prevSlide = () => {
     //     currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
     //     updateCarousel();
-    // };
-
-    const nextSlide = () => {
-        currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
-        updateCarousel();
-    };
-    
-    const prevSlide = () => {
-        currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
-        updateCarousel();
     };
 
     document.querySelector('.carousel-control.prev').addEventListener('click', prevSlide);

@@ -37,21 +37,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // const nextSlide = () => {
-    //     currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
-    //     updateCarousel();
-    // };
-
-    // const prevSlide = () => {
-    //     currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
-    //     updateCarousel();
-    // };
-
     const nextSlide = () => {
         currentIndex = (currentIndex === carouselItems.length - 1) ? 0 : currentIndex + 1;
         updateCarousel();
     };
-    
+
     const prevSlide = () => {
         currentIndex = (currentIndex === 0) ? carouselItems.length - 1 : currentIndex - 1;
         updateCarousel();
@@ -76,13 +66,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelector('.carousel').addEventListener('click', resetInterval);
 
-    
     // Handle video end event to go to next slide
-    // document.querySelectorAll('.carousel-item video').forEach(video => {
-    //     video.addEventListener('ended', nextSlide);
-    //     video.addEventListener('play', () => clearInterval(autoSlideInterval));
-    //     video.addEventListener('pause', resetInterval);
-    // });
+    document.querySelectorAll('.carousel-item video').forEach(video => {
+        video.addEventListener('ended', nextSlide);
+        video.addEventListener('play', () => clearInterval(autoSlideInterval));
+        video.addEventListener('pause', resetInterval);
+    });
 
     updateCarousel();
 });
