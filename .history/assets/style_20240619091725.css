@@ -114,16 +114,7 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 4px;
 }
-
-.biologos {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-}
-
 .voltar ul {
     list-style-type: none;
     padding: 0;
@@ -148,12 +139,3 @@ a:hover {
     background-color: rgb(40, 119, 223);
     color: white;
 }
-
-
-
-
-
-
-
-
-

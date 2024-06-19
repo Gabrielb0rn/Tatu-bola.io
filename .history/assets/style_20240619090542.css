@@ -39,10 +39,6 @@ h1, h2, h3, h4 {
 figure {
     margin: 20px 0;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
 }
 
 figcaption {
@@ -66,7 +62,6 @@ footer {
     width: 90%;
     margin: 0 auto;
     bottom: 0;
-    border-radius: 5px;
 }
 
 a {
@@ -114,14 +109,16 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 4px;
 }
-
-.biologos {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+.voltar {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(40, 119, 223);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
 }
 
 .voltar ul {
@@ -135,25 +132,15 @@ a:hover {
 
 .botao-voltar {
     display: inline-block;
-    padding: 30px 330px;
-    background-color: rgb(45, 134, 250);
-    color: rgb(255, 255, 255);
+    padding: 50px px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(40, 119, 223);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-    font-size: 1.5em;
 }
 
 .botao-voltar:hover {
     background-color: rgb(40, 119, 223);
     color: white;
 }
-
-
-
-
-
-
-
-
-
