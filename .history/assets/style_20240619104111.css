@@ -148,6 +148,61 @@ a:hover {
     background-color: rgb(40, 119, 223);
     color: white;
 }
+.carousel {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 6px 5px 15px rgba(0, 0, 0, 0.562);
+    background-color: #66636388;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.527);
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.carousel-control.prev {
+    left: 10px;
+    border-radius: 100px;
+}
+
+.carousel-control.next {
+    right: 10px;
+    border-radius: 100px;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
 
 .indicator {
     width: 10px;
@@ -161,7 +216,7 @@ a:hover {
 .indicator.active {
     background-color: white;
 }
-.carrousel img:hover {
+img:hover {
     transform: scale(1.05);
 }
 

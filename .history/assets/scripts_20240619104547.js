@@ -21,4 +21,3 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Por favor, preencha todos os campos.');
         }
     });
-});
