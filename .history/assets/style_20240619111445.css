@@ -171,20 +171,19 @@ a:hover {
     width: auto;
     overflow: hidden;
     position: relative;
-    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 6px 5px 15px rgba(0, 0, 0, 0.562);
+    back
 }
 
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    background-size: contain;
-    background-image: url('resources/carrosel/tatu-bola-principais-habitos-e-caracteristicas-da-especie-brasileira.jpg');
-    background-repeat: no-repeat;
+    background-size: ;
 }
 
 .carousel-item {
     min-width: 100%;
-    
 }
 
 .carousel-item img {
