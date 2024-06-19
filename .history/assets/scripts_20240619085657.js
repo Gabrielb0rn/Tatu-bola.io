@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Form validation
     const form = document.querySelector('form');
     form.addEventListener('submit', (e) => {
         const name = document.getElementById('name').value;

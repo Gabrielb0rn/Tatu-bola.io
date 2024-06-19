@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+h2 {
+    color: #333;
+}
+
+.content {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.testimonial {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.images {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}

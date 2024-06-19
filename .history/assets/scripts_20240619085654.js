@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Smooth scrolling for navigation links
     document.querySelectorAll('nav ul li a').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -8,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Form validation
     const form = document.querySelector('form');
     form.addEventListener('submit', (e) => {
         const name = document.getElementById('name').value;

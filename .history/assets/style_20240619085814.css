@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: gray;
+    background-color: #4caf50;
     color: white;
     display: flex;
     justify-content: center;
@@ -111,10 +111,5 @@ a:hover {
     margin-right: auto;
 }
 .voltar{
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    
 }

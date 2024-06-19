@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    background-image: url('https://ciclovivo.com.br/wp-content/uploads/2020/06/cerrado-777775_1280-1024x768.jpg');
-    background-size: cover;
-    backdrop-filter: blur(7px);
+    background-image: url(https://images.ecycle.com.br/wp-content/uploads/2021/06/10091531/savana-scaled.jpg.webp);
+    background-
     color: #333;
     margin: 0;
     padding: 0;
@@ -11,14 +10,15 @@ body {
 }
 
 header {
-    background-color: gray;
+    background: url('koenigsegg.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     text-shadow: 2px 2px 4px #000;
-    height: 300px;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -109,12 +109,4 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.voltar{
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
 }
